@@ -1,7 +1,10 @@
+import * as Element from "./styles";
+import Navbar from "../../components/Navbar";
+
 export function Home() {
   return (
-    <div>
-      <h1>hello word</h1>
-    </div>
+    <Element.Root>
+      <Navbar />;
+    </Element.Root>
   );
 }
