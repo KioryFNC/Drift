@@ -23,8 +23,6 @@ export const Carousel = styled.div`
   position: relative;
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 0 2rem;
 `;
 
 export const LogoList = styled.div`
@@ -83,14 +81,14 @@ export const LogoContainer = styled.div`
 `;
 
 export const TrackWrapper = styled.div`
-  width: 100%;
+  width: 100vw;
   position: relative;
 
   &::before,
   &::after {
     content: "";
     height: 100%;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     top: 0;
     z-index: 2;

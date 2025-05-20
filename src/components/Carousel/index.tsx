@@ -23,7 +23,16 @@ export function Carousel() {
   const trackRef = useRef<HTMLDivElement>(null);
   const [isPaused, setIsPaused] = useState(false);
 
-  const allSponsors = [...sponsors, ...sponsors];
+  const allSponsors = [
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+    ...sponsors,
+  ];
 
   return (
     <Element.Container>
