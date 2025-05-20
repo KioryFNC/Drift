@@ -12,6 +12,7 @@ declare module "styled-components" {
     gradientStart: string;
     gradientEnd: string;
     shadowColor: string;
+    secundaryShadowColor: string;
     backgroundImage?: string;
   }
 }

@@ -9,6 +9,7 @@ export const lightTheme = {
   gradientStart: "#22C55E",
   gradientEnd: "#6B7280",
   shadowColor: "rgba(34, 197, 94, 0.2)",
+  secundaryShadowColor: "rgba(150, 196, 168, 0.2)",
   backgroundImage: "",
 };
 
@@ -23,5 +24,6 @@ export const darkTheme = {
   gradientStart: "#22C55E",
   gradientEnd: "#6B7280",
   shadowColor: "rgba(34, 197, 94, 0.2)",
+  secundaryShadowColor: "rgba(34, 197, 94, 0.2)",
   backgroundImage: "",
 };

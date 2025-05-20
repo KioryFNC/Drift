@@ -38,7 +38,7 @@ export const LogoText = styled.h1`
     `linear-gradient(to right, ${theme.gradientStart}, ${theme.gradientEnd})`};
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; // ta deixando invisivel o texto
+  -webkit-text-fill-color: transparent;
 
   @media (min-width: 768px) {
     font-size: 1.875rem;
@@ -128,7 +128,7 @@ export const MobileMenuContainer = styled.div`
 `;
 
 export const MobileNavLink = styled.a`
-  padding: 0%.75rem 0;
+  padding: 0.75rem 0;
   font-size: 1.125rem;
   border-bottom: 1px solid ${({ theme }) => theme.scrollbarTrack};
 `;
