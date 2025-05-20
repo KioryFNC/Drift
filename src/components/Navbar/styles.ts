@@ -34,11 +34,8 @@ export const LogoLink = styled.a`
 export const LogoText = styled.h1`
   font-size: 1.5rem;
   font-weight: 700;
-  background: linear-gradient(
-    to right,
-    var(--gradient-start),
-    var(--gradient-end)
-  );
+  background: ${({ theme }) =>
+    `linear-gradient(to right, ${theme.gradientStart}, ${theme.gradientEnd})`};
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; // ta deixando invisivel o texto
@@ -64,11 +61,8 @@ export const NavLink = styled.a`
   transition: all 0.3s ease;
 
   &:hover {
-    background: linear-gradient(
-      to right,
-      var(--gradient-start),
-      var(--gradient-end)
-    );
+    background: ${({ theme }) =>
+      `linear-gradient(to right, ${theme.gradientStart}, ${theme.gradientEnd})`};
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -81,7 +75,7 @@ export const ThemeToggle = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: var() (--muted);
+    background-color: ${({ theme }) => theme.scrollbarTrack};
   }
 `;
 
@@ -101,7 +95,7 @@ export const MobileMenuButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: var(--muted);
+    background-color: ${({ theme }) => theme.scrollbarTrack};
   }
 `;
 
@@ -110,8 +104,8 @@ export const MobileMenu = styled.div<{ $isOpen: boolean }>`
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: var(--background);
-  border-top: 1px solid var(--border);
+  background-color: ${({ theme }) => theme.background};
+  border-top: 1px solid ${({ theme }) => theme.scrollbarTrack};
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
@@ -136,5 +130,5 @@ export const MobileMenuContainer = styled.div`
 export const MobileNavLink = styled.a`
   padding: 0%.75rem 0;
   font-size: 1.125rem;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid ${({ theme }) => theme.scrollbarTrack};
 `;
