@@ -8,7 +8,7 @@ export const NavbarContainer = styled.nav<{ $isScrolled: boolean }>`
   z-index: 50;
   transition: all 0.3s ease-in-out;
   background-color: ${(props) =>
-    props.$isScrolled ? "var(--background-90)" : "(transparent)"};
+    props.$isScrolled ? "var(--background-90)" : "transparent"};
   backdrop-filter: ${(props) => (props.$isScrolled ? "blur(8px)" : "none")};
   box-shadow: ${(props) =>
     props.$isScrolled

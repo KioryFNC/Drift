@@ -7,6 +7,7 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   padding-top: 0;
+  margin-top: -1.5rem;
   overflow: hidden;
   background: linear-gradient(
     to bottom,
