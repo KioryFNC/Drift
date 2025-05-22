@@ -57,7 +57,7 @@ export const Title = styled.h3`
 `;
 
 export const Description = styled.p`
-  color: #fff;
+  color: ${({ theme }) => theme.textColor};
   margin-bottom: 1.5rem;
   text-align: center;
 
@@ -74,19 +74,19 @@ export const FeatureItem = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 
   &:before {
     content: "✓";
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.4rem;
-    height: 2.4rem;
-    background-color: #fff;
+    width: 2.6rem;
+    height: 2.6rem;
+    background-color: ${({ theme }) => theme.backgroundButton};
     border-radius: 50%;
-    color: #fff;
+    color: ${({ theme }) => theme.textColor};
     margin-right: 0.75rem;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
   }
 `;

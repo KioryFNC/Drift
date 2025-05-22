@@ -8,7 +8,7 @@ export function VideoSection() {
         <Element.VideoContent>
           <Element.VideoWrapper>
             <Element.VideoFrame
-              src="https://www.youtube.com/watch?v=c_E_hK8jYAg&ab_channel=DriftVideo"
+              src="https://www.youtube.com/embed/c_E_hK8jYAg"
               title="Tamuki Drift Highlights"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
