@@ -143,5 +143,38 @@ export const ContentTitle = styled.h3`
 `;
 
 export const ContentDescription = styled.p`
-  color: ;
+  color: ${({ theme }) => theme.textColor};
+  margin-bottom: 1.5rem;
+  text-align: center;
+
+  @media (min-width: 1024px) {
+    text-align: left;
+  }
+`;
+
+export const FeatureList = styled.ul`
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`;
+
+export const FeatureItem = styled.li`
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+
+  &:before {
+    content: "✓";
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: ${({ theme }) => theme.backgroundButton};
+    border-radius: 50%;
+    color: ${({ theme }) => theme.textColor};
+    margin-right: 0.75rem;
+    font-size: 0.875rem;
+  }
 `;
