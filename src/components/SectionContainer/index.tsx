@@ -35,7 +35,7 @@ export function SectionContainer({
 
   return (
     <Element.Section id={id} className={className}>
-      <Element.Container visible={visible}>{children}</Element.Container>
+      <Element.Container $visible={visible}>{children}</Element.Container>
     </Element.Section>
   );
 }

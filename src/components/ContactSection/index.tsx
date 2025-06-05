@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useToast } from "../../hooks/use-toast";
 import * as Element from "./styles";
 import { useForm } from "react-hook-form";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { SectionContainer } from "../SectionContainer";
 
 type ContactFormData = {
@@ -29,10 +29,10 @@ export function ContactSection() {
 
     try {
       const serviceId = "gmailMessage";
-      const templeteId = "template_5ds1kpg";
-      const userId = "RCvu68gBHXMJBy3EM2-J-";
+      const templateId = "template_5ds1kpg";
+      const userId = "fqyO1pCZLE3-VJ2u7";
 
-      const templeteParams = {
+      const templateParams = {
         from_name: data.name,
         from_email: data.email,
         from_phone: data.phone,
@@ -40,7 +40,7 @@ export function ContactSection() {
         message: data.message,
       };
 
-      await emailjs.send(serviceId, templeteId, templeteParams, userId);
+      await emailjs.send(serviceId, templateId, templateParams, userId);
 
       toast({
         title: "Mensagem Enviada!",
