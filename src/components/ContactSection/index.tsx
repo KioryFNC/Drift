@@ -28,9 +28,9 @@ export function ContactSection() {
     setIsSubmitting(true);
 
     try {
-      const serviceId = "YOUR_EMAILJS_SERVICE_ID";
-      const templeteId = "YOUR_EMAILJS_TEMPLETE_ID";
-      const userId = "YOUR_EMAILJS_USER_ID";
+      const serviceId = "gmailMessage";
+      const templeteId = "template_5ds1kpg";
+      const userId = "RCvu68gBHXMJBy3EM2-J-";
 
       const templeteParams = {
         from_name: data.name,
