@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { useToast } from "../../hooks/use-toast";
+import { useToast } from "../../hooks/use-toast";
 import * as Element from "./styles";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
@@ -72,7 +72,7 @@ export function ContactSection() {
 
       <Element.Container>
         <Element.ContactInfo>
-          <Element.infoTitle>Informações de Contato</Element.infoTitle>
+          <Element.InfoTitle>Informações de Contato</Element.InfoTitle>
           <Element.InfoText>
             Nossa equipe responde mensagens em até 24 horas durante dias úteis.
           </Element.InfoText>
