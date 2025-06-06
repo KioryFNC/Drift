@@ -99,6 +99,14 @@ export const InfoLabel = styled.p`
 
 export const InfoValue = styled.p`
   font-weight: 500;
+  transition: all 0.3s ease;
+  border-radius: 0.5rem;
+  padding: 0 1.5rem;
+  &:hover {
+    background-color: #16a34a;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(34, 197, 94, 0.4);
+  }
 `;
 
 export const ContactForm = styled.form`
@@ -139,7 +147,7 @@ export const Input = styled.input`
   border-radius: 0.375rem;
   border: 2px solid #22c55e;
   padding: 0 1rem;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   transition: all 0.3s ease;
   background-color: ${({ theme }) => theme.background};
   box-shadow: 0 4px 10px rgba(34, 197, 94, 0.2);
@@ -163,7 +171,7 @@ export const Textarea = styled.textarea`
   border: 2px solid #22c55e;
   background-color: ${({ theme }) => theme.background};
   padding: 0.75rem 1rem;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   resize: vertical;
   min-height: 6rem;
   transition: all 0.3s ease;

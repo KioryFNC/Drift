@@ -38,7 +38,8 @@ export const Card = styled.div`
   align-items: center;
   text-align: center;
   padding: 1.5rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.6);
   transition: all 0.3s ease;
   border: 1px solid ${({ theme }) => theme.scrollbarTrack};
@@ -46,7 +47,8 @@ export const Card = styled.div`
   background-color: ${({ theme }) => theme.background};
 
   &:hover {
-    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    box-shadow:
+      0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
     transform: translateY(-0.25rem);
     background-image: linear-gradient(
@@ -110,7 +112,8 @@ export const ServiceImage = styled.div`
   width: 100%;
   height: 30rem;
   border-radius: 12px;
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
     0 10px 10px -5px rgba(0, 0, 0, 0.04);
   order: 1;
 
@@ -162,19 +165,19 @@ export const FeatureItem = styled.li`
   display: flex;
   align-items: center;
   margin-bottom: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 
   &:before {
     content: "✓";
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2.4rem;
-    height: 2.4rem;
+    width: 2.6rem;
+    height: 2.6rem;
     background-color: ${({ theme }) => theme.backgroundButton};
     border-radius: 50%;
     color: ${({ theme }) => theme.textColor};
     margin-right: 0.75rem;
-    font-size: 0.875rem;
+    font-size: 1.4rem;
   }
 `;

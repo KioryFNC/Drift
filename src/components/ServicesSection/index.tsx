@@ -88,7 +88,7 @@ export function ServicesSection() {
 
         <Element.ServiceImage>
           <img
-            src="https://images.unsplash.com/photo-1604076913837-52ab5629fba9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+            src="https://images.unsplash.com/photo-1536909526839-8f10e29ba80c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Carro de drift em competição"
           />
         </Element.ServiceImage>

@@ -10,10 +10,9 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { title: "Início", href: "#home" },
-  { title: "Sobre", href: "#about" },
+  { title: "Patrocinadores", href: "#Sponsors" },
   { title: "Serviços", href: "#services" },
   { title: "Galeria", href: "#gallery" },
-  { title: "Depoimentos", href: "#testimonials" },
   { title: "Contato", href: "#contact" },
 ];
 
