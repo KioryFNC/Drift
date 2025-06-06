@@ -6,6 +6,7 @@ import { VideoSection } from "../../components/VideoSection";
 import { ServicesSection } from "../../components/ServicesSection";
 import { GallerySection } from "../../components/GallerySection";
 import { ContactSection } from "../../components/ContactSection";
+import { Footer } from "../../components/Footer";
 
 export function Home() {
   return (
@@ -17,6 +18,7 @@ export function Home() {
       <ServicesSection />
       <GallerySection />
       <ContactSection />
+      <Footer />
     </Element.Root>
   );
 }
