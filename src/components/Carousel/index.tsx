@@ -35,7 +35,7 @@ export function Carousel() {
   ];
 
   return (
-    <Element.Container>
+    <Element.Container id="sponsors">
       <Element.Title>Nossos Patrocinadores</Element.Title>
 
       <Element.Carousel>

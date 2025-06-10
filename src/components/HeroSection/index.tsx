@@ -30,18 +30,18 @@ export function HeroSection() {
             <Element.SecondaryButton
               onClick={() =>
                 document
-                  .getElementById("services")
+                  .getElementById("gallery")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
             >
-              Patrocinadores
+              Galeria
             </Element.SecondaryButton>
           </Element.ButtonGroup>
         </Element.ContentBox>
 
         <Element.HeroImage>
           <img
-            src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
+            src="https://images.unsplash.com/photo-1695285157832-ea00ead87934?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
             alt="Carro de drift em ação"
             loading="eager"
           />

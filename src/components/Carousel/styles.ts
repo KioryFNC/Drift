@@ -8,7 +8,7 @@ export const Container = styled.div`
     rgba(34, 197, 94, 0.2) 50%,
     rgba(34, 197, 94, 0.1) 100%
   );
-  padding: 3rem 0;
+  padding: 6rem 0 3rem 0;
   position: relative;
   border-top: 1px solid rgba(34, 197, 94, 0.2);
   border-bottom: 1px solid rgba(34, 197, 94, 0.2);

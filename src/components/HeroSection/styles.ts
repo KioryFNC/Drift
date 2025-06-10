@@ -62,6 +62,7 @@ export const Container = styled.div`
   padding-bottom: 8rem;
 
   @media (min-width: 1024px) {
+    max-width: 168rem;
     flex-direction: row;
     padding: 8rem;
   }

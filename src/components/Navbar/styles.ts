@@ -56,7 +56,7 @@ export const DesktopNav = styled.div`
 `;
 
 export const NavLink = styled.a`
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-weight: 500;
   transition: all 0.3s ease;
 
@@ -106,7 +106,8 @@ export const MobileMenu = styled.div<{ $isOpen: boolean }>`
   width: 100%;
   background-color: ${({ theme }) => theme.background};
   border-top: 1px solid ${({ theme }) => theme.scrollbarTrack};
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   transform: ${(props) =>
