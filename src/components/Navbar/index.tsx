@@ -38,7 +38,7 @@ export const Navbar = () => {
     <Element.NavbarContainer $isScrolled={isScrolled}>
       <Element.Container>
         <Element.LogoLink href="#home">
-          <Element.LogoText>BrandName</Element.LogoText>
+          <Element.LogoText>Fujiwara Drift</Element.LogoText>
         </Element.LogoLink>
 
         <Element.DesktopNav>
